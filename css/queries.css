@@ -184,7 +184,11 @@
   .pricing-card {
     width: 100%;
   }
-
+  
+  .testimonial {
+    flex-direction: column;
+  }
+  
   .pricing-cards,
   .footer,
   .features-box,
