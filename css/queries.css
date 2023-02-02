@@ -105,6 +105,16 @@
   .font-2 {
     font-size: 2.4rem;
   }
+  .btn-primary {
+    padding: 0.7rem 1.4rem;
+    font-weight: 500;
+  }
+  .header {
+    gap: 2.4rem;
+  }
+  .logo {
+    width: 12rem;
+  }
   .explore-content,
   .hero {
     flex-direction: column;
@@ -127,7 +137,18 @@
     font-size: 3.2rem;
     font-weight: 700;
   }
+  .marketing {
+    padding: 0 4.8rem;
+  }
+  .marketing-steps,
+  .subheading-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
+  .video-description {
+    margin-left: 0;
+  }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -176,42 +197,55 @@
   }
 
   .icons-box,
-  .btn-features {
+  .btns-testimonial {
     display: none;
   }
-  .media-icon {
-    padding: 0 20rem;
-  }
-  .slide-box img,
+
   .pricing-card {
     width: 100%;
   }
-  
+
   .testimonial {
     flex-direction: column;
   }
-  
+
   .pricing-cards,
   .footer,
   .features-box,
   .media-icons,
   .media-content {
     grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
   }
   .nav-col.nav-col:nth-child(3) {
     grid-column: 1;
+  }
+  .logo-col {
+    padding: 0;
   }
   .address-col {
     grid-column: 1;
     grid-row: 4;
     align-items: center;
+    padding: 0;
   }
   .features-box *,
-  .pricing-card *,
-  .footer * {
+  .footer *,
+  .testimonial *,
+  .section-features .font-2:first-child {
     text-align: center;
     margin: 0 auto;
+  }
+  .footer {
+    row-gap: 8rem;
+    column-gap: 0;
+  }
+  .footer-end {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .footer-end .btn-download,
+  .btn-download {
+    padding: 0.6rem 1.2rem;
   }
 }
 /* 
