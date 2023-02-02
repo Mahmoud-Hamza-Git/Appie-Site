@@ -316,11 +316,11 @@
 /* MEDIA SECTION */
 /**************************/
 
-.section-media {
-}
 .media-icons {
   padding: 10px;
   justify-items: center;
+  justify-items: stretch;
+  gap: 6.8rem;
 }
 .media-icon {
   display: flex;
@@ -338,7 +338,7 @@
   font-weight: 400;
 }
 .media-icon img {
-  width: 75%;
+  width: 7rem;
 }
 
 /* media content */
